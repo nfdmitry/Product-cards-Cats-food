@@ -1,6 +1,6 @@
 # «Карточки товаров Cats food» 
 
-## «Product_cards_Сat-food» [ссылка на страницу]()
+## «Product_cards_Сat-food» [ссылка на страницу](https://nfdmitry.github.io/Product_cards_Cats-food/)
 
 - Верстка реализована c использованием препроцессора Sass и методологии БЭМ.
 - Логика реализована на JavaScript 
