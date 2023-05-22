@@ -1,4 +1,4 @@
-# «Карточки товаров Cats food» 
+# «Product card Cats food» 
 
 ## Development files
 
