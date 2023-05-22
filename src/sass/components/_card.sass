@@ -1,0 +1,123 @@
+.card-cats
+    width: 320px
+    min-height: 480px
+    position: relative
+    cursor: pointer
+    @include respond(tablet-landscape)
+        width: 300px
+    @include respond(tablet-portrait)
+        margin-bottom: 42px
+    @include respond(mobile-portrait)
+        max-width: 280px 
+        margin-bottom: 42px
+    &__head
+        display: flex
+    &__triangle
+        width: 14.1%
+        background: linear-gradient(-45deg,#f2f2f2,#f2f2f2 28.2px,#1698D9 0,#1698D9 32px,transparent 0)
+        @include respond(tablet-landscape)
+            width: 15.1%
+        @include respond(tablet-portrait)
+            width: 15.1%
+        @include respond(mobile-landscape)
+            width: 15.1%
+        @include respond(mobile-portrait)
+            width: 16.4%
+    &__slogan
+        width: 88%
+        padding-top: 21px
+        font-weight: 400
+        padding: 21px 0px 0px 11px
+        font-size: 16px
+        line-height: 19px
+        color: #666666
+        background-color: #F2F2F2
+        border-top: 4px solid #1698D9
+        border-right: 4px solid #1698D9
+        border-radius: 0px 12px 0px 0px
+        @include respond(mobile-portrait)
+            font-size: 14px
+    &__main
+        background-color: rgb(242, 242, 242)
+        // padding: 5px 48px 300px
+        padding: 5px 48px 280px
+        border-radius: 0px 0px 12px 12px
+        border: 4px solid #1698d9
+        border-top: none
+        position: relative
+        overflow: hidden
+        margin-bottom: 14px
+    &__title
+        font-weight: 700
+        font-size: 48px
+        line-height: 56px
+        color: #000000
+        @include respond(mobile-portrait)
+            font-size: 38px 
+    &__subtitile
+        font-weight: 700
+        font-size: 24px
+        line-height: 28px
+        color: #000000
+        margin-bottom: 15px
+        @include respond(mobile-portrait)
+            font-size: 21px
+    &__properti
+        font-size: 14px
+        line-height: 16px
+        min-height: 48px
+    &__properti-item
+    &__image-cat
+        position: absolute
+        // left: -24px
+        // top: 208px
+        left: -28px
+        top: 164px
+    &__image-circle
+        background-color: #1698D9
+        width: 80px
+        height: 80px
+        position: absolute
+        left: 221px
+        top: 339px
+        border-radius: 50%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        @include respond(tablet-landscape)
+            left: 203px
+            top: 344px
+        @include respond(mobile-portrait)
+            width: 55px
+            height: 55px
+            left: 206px
+            top: 359px
+    &__image-circle-top
+        font-size: 42px
+        line-height: 41px
+        color: #FFFFFF
+        @include respond(mobile-portrait)
+            font-size: 21px
+            line-height: 19px
+    &__image-circle-bottom
+        font-size: 21px
+        line-height: 17px
+        color: #FFFFFF
+    &__bottom
+        font-size: 13px
+        line-height: 15px
+        color: #FFFFFF
+        display: flex
+        justify-content: center
+    &__txt
+    &__bottom-btn
+        color: #1698d9
+    &__bottom-btn-link
+        text-decoration: none
+        border-bottom: 1px dashed currentColor
+        color: inherit
+    @include respond(tablet-portrait)
+        &:last-child
+            margin: 0 auto
+
