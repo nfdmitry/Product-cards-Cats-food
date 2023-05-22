@@ -1,4 +1,4 @@
-# «Product-cards-Cats-food» 
+# «Product card Cats food» 
 
 ## [Demo](https://nfdmitry.github.io/Product-cards-Cats-food/)
 
