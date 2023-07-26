@@ -1,6 +1,6 @@
 # «Product card Cats food» 
 
-## [Demo](https://nfdmitry.github.io/Product-cards-Cats-food/)
+## [Demo](https://nda17.github.io/Product-cards-Cats-food/)
 
 - Верстка реализована c использованием препроцессора Sass и методологии БЭМ.
 - Логика реализована на JavaScript 
